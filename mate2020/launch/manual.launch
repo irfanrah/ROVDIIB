@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find mavros)/launch/apm.launch"/>
+    <node pkg="joy" name="joy" type="joy_node" output="screen"/>
+    <node pkg="mate" name="manual" type="manualcontroller" output="screen"/>
+</launch>

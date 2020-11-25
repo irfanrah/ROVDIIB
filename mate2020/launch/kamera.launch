@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="mate" name="cameraRov" type="cameraRov.py" output="screen"/>
+    <node pkg="mate" name="cameraGCS" type="cameraGCS.py" output="screen"/>
+</launch>
